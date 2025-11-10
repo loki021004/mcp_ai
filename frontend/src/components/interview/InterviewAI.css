@@ -1,0 +1,108 @@
+.interview-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f8fbff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.upload-section {
+  margin-top: 20px;
+}
+
+.upload-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.upload-btn:hover {
+  background: #0056b3;
+}
+
+.upload-btn input {
+  display: none;
+}
+
+.question-section {
+  margin-top: 30px;
+}
+
+.question-section h3 span {
+  color: #0056b3;
+}
+
+.controls {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mic-btn, .next-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.mic-btn {
+  background: #28a745;
+  color: white;
+}
+
+.mic-btn.listening {
+  background: #d9534f;
+}
+
+.next-btn {
+  background: #007bff;
+  color: white;
+}
+
+.next-btn:hover {
+  background: #0056b3;
+}
+
+.answer {
+  margin-top: 15px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+  text-align: left;
+  font-size: 15px;
+}
+
+.feedback-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.feedback-card {
+  background: #eef6ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-text {
+  margin-top: 15px;
+  background: #fff;
+  padding: 12px;
+  border-left: 5px solid #004aad;
+  border-radius: 8px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}

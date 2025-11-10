@@ -1,0 +1,84 @@
+.resume-container {
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume-container h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resume-container p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 0 auto 15px;
+  font-size: 14px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.result-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  text-align: left;
+}
+
+.result-card h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  color: #333;
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.try-again {
+  margin-top: 20px;
+  background: #ff4757;
+}
+
+.try-again:hover {
+  background: #e84118;
+}
+
+@media (max-width: 600px) {
+  .resume-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
